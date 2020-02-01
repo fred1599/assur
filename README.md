@@ -17,8 +17,11 @@ $ source env_assur/bin/activate
 3) Aller dans le dossier contenant le projet
 
 $ cd assur
+
 $ pip install -r requirements.txt
+
 $ ./manage.py migrate
+
 $ ./manage.py runserver
 
 Le script de test concernant le WS se nomme *scripts/test_api_contract.py*
