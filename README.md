@@ -7,13 +7,17 @@ Pour tester dans votre environnement
 -
 
 1) Créer votre environnement
+
 $ python3 -m venv env_assur
 
 2) Activer votre environnement
+
 $ source env_assur/bin/activate
 
 3) Aller dans le dossier contenant le projet
+
 $ cd assur
+$ pip install -r requirements.txt
 $ ./manage.py migrate
 $ ./manage.py runserver
 
