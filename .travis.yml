@@ -4,6 +4,7 @@ python:
 env:
   - DJANGO=3.0.2
 before_install:
+  - rm -rf ~/virtualenv
   - mkdir ~/virtualenv
   - mkdir ~/assur
   - python -m venv ~/virtualenv/python3.7
