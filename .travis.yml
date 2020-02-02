@@ -5,7 +5,7 @@ env:
   - DJANGO=3.0.2
 before_install:
   - python -m pip install --upgrade pip
-  - cd fred1599/assur
+  - cd assur
   - export DJANGO_SETTINGS_MODULE=assur.settings
 
 install:
