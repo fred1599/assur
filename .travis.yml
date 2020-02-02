@@ -7,7 +7,8 @@ before_install:
   - rm -rf ~/virtualenv
   - mkdir ~/virtualenv
   - mkdir ~/assur
-  - apt-install virtualenv
+  - sudo apt-get update
+  - sudo apt-get -y install virtualenv
   - python -m venv ~/virtualenv/env_assur
   - source ~/virtualenv/env_assur/bin/activate
   - cd ~/assur
